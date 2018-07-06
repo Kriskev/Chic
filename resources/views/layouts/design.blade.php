@@ -115,13 +115,17 @@
 
 
 
+
+
 <script>
     var resizefunc = [];
 </script>
 
 
+
 @yield('optionscripts')
 
+@yield('categorie_produit_scripts')
 
 
 

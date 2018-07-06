@@ -28,6 +28,10 @@ Route::match(['get','post'],'/store/user','AdminController@store')->name('storeu
 
 Route::match(['get','post'],'/update/user/{id}','AdminController@update');
 
+Route::match(['get','post'],'/ajouter-categorie-produit','CategorieProduitController@addCategorie')->name('addCategorieProduit');
+
+Route::get('/voir-categorie-produit','CategorieProduitController@viewCategorie')->name('viewCategorieProduit');
+
 
 Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
 

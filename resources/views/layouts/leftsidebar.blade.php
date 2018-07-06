@@ -15,24 +15,10 @@
                 </li>
 
                 <li class="has_sub">
-                    <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-invert-colors"></i> <span> User Interface </span> <span class="menu-arrow"></span></a>
+                    <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-invert-colors"></i> <span>Categorie Produit</span> <span class="menu-arrow"></span></a>
                     <ul class="list-unstyled">
-                        <li><a href="ui-buttons.html">Buttons</a></li>
-                        <li><a href="ui-typography.html">Typography</a></li>
-                        <li><a href="ui-panels.html">Panel</a></li>
-                        <li><a href="ui-portlets.html">Portlets</a></li>
-                        <li><a href="ui-modals.html">Modals</a></li>
-                        <li><a href="ui-checkbox-radio.html">Checkboxs-Radios</a></li>
-                        <li><a href="ui-tabs.html">Tabs</a></li>
-                        <li><a href="ui-progressbars.html">Progress Bars</a></li>
-                        <li><a href="ui-notifications.html">Notification</a></li>
-                        <li><a href="ui-alerts.html">Alerts</a>
-                        <li><a href="ui-carousel.html">Carousel</a>
-                        <li><a href="ui-video.html">Video</a>
-                        <li><a href="ui-tooltips-popovers.html">Tooltips & Popovers</a></li>
-                        <li><a href="ui-images.html">Images</a></li>
-                        <li><a href="ui-bootstrap.html">Bootstrap UI</a></li>
-                        <li><a href="ui-grid.html">Grid</a></li>
+                        <li><a href="{{route('addCategorieProduit')}}">Ajouter catégorie produit</a></li>
+                        <li><a href="{{route('viewCategorieProduit')}}">Voir liste catégorie produit</a></li>
                     </ul>
                 </li>
 
